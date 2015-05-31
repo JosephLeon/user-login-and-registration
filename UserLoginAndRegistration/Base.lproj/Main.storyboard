@@ -84,7 +84,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="r9h-lu-qXr" kind="presentation" id="tuU-Q3-Iyv"/>
+                                    <segue destination="r9h-lu-qXr" kind="presentation" identifier="registerView" id="tuU-Q3-Iyv"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Or" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BaR-Ec-Raf">
