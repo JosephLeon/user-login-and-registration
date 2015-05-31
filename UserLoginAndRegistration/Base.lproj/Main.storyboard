@@ -114,10 +114,10 @@
             </objects>
             <point key="canvasLocation" x="1323" y="204"/>
         </scene>
-        <!--View Controller-->
+        <!--Register Page View Controller-->
         <scene sceneID="u3e-T0-erk">
             <objects>
-                <viewController id="r9h-lu-qXr" sceneMemberID="viewController">
+                <viewController id="r9h-lu-qXr" customClass="RegisterPageViewController" customModule="UserLoginAndRegistration" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="TvF-6f-XFd"/>
                         <viewControllerLayoutGuide type="bottom" id="EF2-ed-AJT"/>
@@ -172,6 +172,9 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="registerTapped:" destination="r9h-lu-qXr" eventType="touchUpInside" id="Uog-sG-nUD"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q79-W5-hka">
                                 <rect key="frame" x="95" y="358" width="224" height="48"/>
@@ -185,6 +188,11 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="repeatPasswordTextField" destination="S00-4d-Suo" id="j9Y-0l-lXn"/>
+                        <outlet property="userEmailTextField" destination="apq-Qp-b0w" id="VOE-eM-ySX"/>
+                        <outlet property="userPasswordTextField" destination="zdo-oL-0E7" id="PiL-Hj-btX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="F37-rd-cQI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
