@@ -14,6 +14,7 @@
 		311B6C3B1B1AA70600921B42 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 311B6C391B1AA70600921B42 /* LaunchScreen.xib */; };
 		311B6C471B1AA70600921B42 /* UserLoginAndRegistrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311B6C461B1AA70600921B42 /* UserLoginAndRegistrationTests.swift */; };
 		311B6C511B1B56CF00921B42 /* RegisterPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311B6C501B1B56CF00921B42 /* RegisterPageViewController.swift */; };
+		311B6C531B1D27DB00921B42 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311B6C521B1D27DA00921B42 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		311B6C451B1AA70600921B42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		311B6C461B1AA70600921B42 /* UserLoginAndRegistrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLoginAndRegistrationTests.swift; sourceTree = "<group>"; };
 		311B6C501B1B56CF00921B42 /* RegisterPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterPageViewController.swift; sourceTree = "<group>"; };
+		311B6C521B1D27DA00921B42 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				311B6C391B1AA70600921B42 /* LaunchScreen.xib */,
 				311B6C2E1B1AA70600921B42 /* Supporting Files */,
 				311B6C501B1B56CF00921B42 /* RegisterPageViewController.swift */,
+				311B6C521B1D27DA00921B42 /* LoginViewController.swift */,
 			);
 			path = UserLoginAndRegistration;
 			sourceTree = "<group>";
@@ -215,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				311B6C531B1D27DB00921B42 /* LoginViewController.swift in Sources */,
 				311B6C331B1AA70600921B42 /* ViewController.swift in Sources */,
 				311B6C311B1AA70600921B42 /* AppDelegate.swift in Sources */,
 				311B6C511B1B56CF00921B42 /* RegisterPageViewController.swift in Sources */,
