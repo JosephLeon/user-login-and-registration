@@ -36,10 +36,10 @@
             </objects>
             <point key="canvasLocation" x="830" y="204"/>
         </scene>
-        <!--View Controller-->
+        <!--Login View Controller-->
         <scene sceneID="QMq-Gu-tRp">
             <objects>
-                <viewController id="ExJ-AJ-q4h" sceneMemberID="viewController">
+                <viewController id="ExJ-AJ-q4h" customClass="LoginViewController" customModule="UserLoginAndRegistration" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="aWV-cc-VG1"/>
                         <viewControllerLayoutGuide type="bottom" id="7f6-vr-Na7"/>
