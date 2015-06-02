@@ -42,8 +42,15 @@ class LoginViewController: UIViewController {
                 
                 NSUserDefaults.standardUserDefaults().setBool(true, forKey: "isUserLoggedIn")
                 NSUserDefaults.standardUserDefaults().synchronize()
-                self.dismissViewControllerAnimated(true, completion: nil)
                 
+//                self.dismissViewControllerAnimated(true, completion: nil)
+                
+                let okAction = UIAlertAction(title: "Ok", style: UIAlertActionStyle.Default) {
+                    action in self.dismissViewControllerAnimated(true, completion: nil)
+                }
+                
+                loginAlert.addAction(okAction)
+                self.presentViewController(loginAlert, animated: true, completion:nil)
                 
             }
         } else {
