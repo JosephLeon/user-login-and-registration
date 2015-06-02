@@ -25,6 +25,23 @@ class LoginViewController: UIViewController {
     }
     
     @IBAction func loginButtonTapped(sender: AnyObject) {
+        
+        let userEmail = userEmailTextField.text
+        let userPassword = userPasswordTextField.text
+        
+        let userEmailStored = NSUserDefaults.standardUserDefaults().stringForKey("userEmail")
+        
+        let userPasswordStored = NSUserDefaults.standardUserDefaults().stringForKey("userPassword")
+        
+        if userEmailStored == userEmail {
+            if userPasswordStored == userPassword {
+                
+                // Login works!
+                
+            }
+        }
+ 
+        
     }
 
     /*
