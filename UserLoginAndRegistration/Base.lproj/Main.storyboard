@@ -100,6 +100,9 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="loginButtonTapped:" destination="ExJ-AJ-q4h" eventType="touchUpInside" id="N63-HM-dcC"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -109,6 +112,10 @@
                     </toolbarItems>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="userEmailTextField" destination="FxJ-I4-0OK" id="K7m-Li-wBe"/>
+                        <outlet property="userPasswordTextField" destination="7eL-fc-suQ" id="HYs-fM-zEC"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VXX-MR-asb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
