@@ -37,8 +37,17 @@ class LoginViewController: UIViewController {
             if userPasswordStored == userPassword {
                 
                 // Login works!
+                var loginAlert = UIAlertController(title: "Alert", message: "Login Successful!", preferredStyle: UIAlertControllerStyle.Alert)
+ 
+                
+                NSUserDefaults.standardUserDefaults().setBool(true, forKey: "isUserLoggedIn")
+                NSUserDefaults.standardUserDefaults().synchronize()
+                self.dismissViewControllerAnimated(true, completion: nil)
+                
                 
             }
+        } else {
+            // display login error message.
         }
  
         
